@@ -22,4 +22,8 @@ heroku config --app lexusfeedback13
 pip freeze > requirements.txt
 
 touch Procfile
+
+heroku git:remote -a lexusfeedback13
+
+git push heroku master
 ```
